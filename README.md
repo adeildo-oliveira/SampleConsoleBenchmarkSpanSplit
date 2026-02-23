@@ -10,7 +10,6 @@ No .NET, temos a possibilidade de evitar alocações desnecessárias na **Heap**
 ## 📊 Resultados do Benchmark
 Os testes foram realizados utilizando a biblioteca [BenchmarkDotNet](https://benchmarkdotnet.org).
 
-
 ```
 BenchmarkDotNet v0.15.8, Linux Linux Mint 22.3 (Zena)
 Intel Core i5 CPU 2.70GHz (Max: 3,100.02GHz) (Skylake), 1 CPU, 4 logical and 4 physical cores
