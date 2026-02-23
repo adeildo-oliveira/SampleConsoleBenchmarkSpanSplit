@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="compose.yaml" />
+  </Folder>
+  <Folder Name="/Solution Items/BenchmarkDotNet.Artifacts/">
+    <File Path="BenchmarkDotNet.Artifacts\results\SampleConsoleBenchmarkSpanSplit.BenchmarkTest-report-github.md" />
+    <File Path="BenchmarkDotNet.Artifacts\results\SampleConsoleBenchmarkSpanSplit.BenchmarkTest-report.csv" />
+    <File Path="BenchmarkDotNet.Artifacts\results\SampleConsoleBenchmarkSpanSplit.BenchmarkTest-report.html" />
+    <File Path="BenchmarkDotNet.Artifacts\SampleConsoleBenchmarkSpanSplit.BenchmarkTest-20260223-201117.log" />
+  </Folder>
+  <Project Path="SampleConsoleBenchmarkSpanSplit/SampleConsoleBenchmarkSpanSplit.csproj" />
+</Solution>
