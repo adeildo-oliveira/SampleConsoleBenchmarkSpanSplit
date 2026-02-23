@@ -5,7 +5,7 @@ Sample para comparar a performance e alocação de memória entre o método trad
 ## 📌 Contexto
 Em um cenário de alta volumetria de requisições, pequenas ações podem ajudar a escalar a sua aplicação.
 
-NO .NET, temos a possibilidade de evitar alocações desnecessárias na **Heap** usando o recurso de `Span<T>`/`ReadOnlySpan<char>`. Enquanto o `string.Split()` cria um novo array e novas instâncias de string para cada parte, o uso de `Span` permite realizar o fatiamento (slicing) sem alocações adicionais.
+No .NET, temos a possibilidade de evitar alocações desnecessárias na **Heap** usando o recurso de `Span<T>`/`ReadOnlySpan<char>`. Enquanto o `string.Split()` cria um novo array e novas instâncias de string para cada parte, o uso de `Span` permite realizar o fatiamento (slicing) sem alocações adicionais.
 
 ## 📊 Resultados do Benchmark
 Os testes foram realizados utilizando a biblioteca [BenchmarkDotNet](https://benchmarkdotnet.org).
